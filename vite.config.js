@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: command === 'serve' ? '/' : '/heat-energy/',
+  base: command === 'serve' ? '/' : '/heat-energy-capital/',
 }))

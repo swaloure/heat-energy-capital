@@ -1,6 +1,7 @@
 {
   "name": "heat-energy",
   "private": true,
+  "homepage": "https://swaloure.github.io/heat-energy-capital/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
