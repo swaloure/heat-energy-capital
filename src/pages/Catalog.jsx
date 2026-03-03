@@ -113,7 +113,9 @@ const Catalog = () => {
 
                                 <div className="mt-auto pt-6 border-t border-slate-50 flex items-center justify-between">
                                     <div className="flex flex-col">
-                                        <span style={{ fontSize: '10px', color: '#999', fontStyle: 'italic', fontWeight: 600 }}>{t('catalog.estPrice')}</span>
+                                        <span style={{ fontSize: '10px', color: '#999', fontStyle: 'italic', fontWeight: 600, marginBottom: '4px', display: 'block' }}>
+                                            {t('catalog.estPrice')}
+                                        </span>
                                         <span style={{ fontSize: '20px', fontWeight: 700 }}>
                                             {new Intl.NumberFormat(currentLang === 'kk' ? 'kk-KZ' : currentLang === 'ru' ? 'ru-RU' : 'en-US').format(product.price)} ₸
                                         </span>

@@ -50,9 +50,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="mt-20 pt-8 border-t border-slate-100 flex justify-between items-center text-[10px] font-bold text-slate-300 uppercase tracking-widest">
-                    <span>© {new Date().getFullYear()} {t('brand')}. {t('footer.rights')}</span>
-                    <div className="flex gap-10">
+                <div className="mt-20 pt-8 border-t border-slate-100" style={{ width: '100%', textAlign: 'center' }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px', fontSize: '10px', fontWeight: 800, color: '#ccd6e0', textTransform: 'uppercase', letterSpacing: '0.15em' }}>
+                        <span>© {new Date().getFullYear()} {t('brand')}. {t('footer.rights')}</span>
                         <Link to="/privacy" style={{ textDecoration: 'none', color: 'inherit' }}>{t('nav.privacy')}</Link>
                     </div>
                 </div>
